@@ -12,7 +12,7 @@
 
 import os
 
-BOT_TOKEN = str(os.environ.str("BOT_TOKEN"))  # Bot toekn
-ADMINS = list(os.environ.list("ADMINS"))  # adminlar ro'yxati
-IP = str(os.environ.str("ip"))  # Xosting ip manzili
-CHANNELS = str(os.environ.str("CHANNEL"))
+BOT_TOKEN = str(os.environ.get("BOT_TOKEN"))  # Bot toekn
+ADMINS = list(os.environ.get("ADMINS"))  # adminlar ro'yxati
+IP = str(os.environ.get("ip"))  # Xosting ip manzili
+CHANNELS = str(os.environ.get("CHANNEL"))
