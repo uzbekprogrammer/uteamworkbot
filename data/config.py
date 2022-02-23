@@ -16,4 +16,3 @@ BOT_TOKEN = str(os.environs.str("BOT_TOKEN"))  # Bot toekn
 ADMINS = list(os.environs.list("ADMINS"))  # adminlar ro'yxati
 IP = str(os.environs.str("ip"))  # Xosting ip manzili
 CHANNELS = str(os.environs.str("CHANNEL"))
-PROVIDER_TOKEN = str(os.environs.str("PROVIDER_TOKEN"))
