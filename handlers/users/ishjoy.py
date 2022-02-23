@@ -9,6 +9,7 @@ from keyboards.inline.manage_post import post_callback, confirmation_keyboard
 from loader import dp, bot
 from states import Ishjoy
 from states.newpost import NewPost
+ADMINS = [1768033194]
 
 
 @dp.message_handler(state=Ishjoy.idora)

@@ -9,6 +9,7 @@ from keyboards.inline.manage_post import post_callback
 from loader import dp, bot
 from states import Ishchi
 from states.newpost import NewPost
+ADMINS = [1768033194]
 
 
 @dp.message_handler(state=Ishchi.ism_fam)
