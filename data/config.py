@@ -12,7 +12,7 @@
 
 import os
 
-BOT_TOKEN = str(os.environ.get("BOT_TOKEN"))  # Bot toekn
-ADMINS = list(os.environ.get("ADMINS"))  # adminlar ro'yxati
-IP = str(os.environ.get("ip"))  # Xosting ip manzili
-CHANNELS = str(os.environ.get("CHANNEL"))
+BOT_TOKEN = "5225825244:AAEc3_pm-QmTLzOv15WQVpOVMnJ1IHAdtNI"  # Bot toekn
+ADMINS = "1768033194"  # adminlar ro'yxati
+IP = "localhost" # Xosting ip manzili
+CHANNELS = "@justwork_uz"
