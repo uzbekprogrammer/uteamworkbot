@@ -1,4 +1,4 @@
-import sqlite3
+import pysqlite3
 
 
 class Database:
@@ -7,7 +7,7 @@ class Database:
 
     @property
     def connection(self):
-        return sqlite3.connect(self.path_to_db)
+        return pysqlite3.connect(self.path_to_db)
 
     def execute(self, sql: str, parameters: tuple = None, fetchone=False, fetchall=False, commit=False):
         if not parameters:
